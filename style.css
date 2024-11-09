@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    text-align: center;
+}
+.img-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-top: 45px;
+}
+.images{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.radio-button{
+    display: flex;
+    justify-content: center;
+}  
+.type-fish{
+  list-style-type: none;
+  margin: 5px;
+}
+.type-fish-content{
+    cursor: pointer;
+}
+#Project-head{
+    margin-top: 50px;
+}
+.button-show{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    border-width: 2px;
+    padding: 10px  20px;
+}
+.button-show:hover{
+  color: red;
+}
