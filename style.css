@@ -1,49 +1,46 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: bisque;
-    text-align: center;
+    background-color: cornflowerblue;
 }
-.img-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    margin-top: 45px;
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
 }
-.images{
-    background-color: aliceblue;
-    display: inline-block;
-    width: 340px;
-    height: 340px;
-    text-align: center;
-    border-radius: 100%;
+.Head{
+    font-weight: 600;
+    font-size: 15px;
+    margin: 15px;
 }
-
-.radio-button{
-    display: flex;
-    justify-content: center;
-}  
-.type-fish{
-  list-style-type: none;
-  margin: 5px;
+.input-tag{
+    width: 80%;
+    height: 45px;
+    padding: 8px;
+    border: 1px solid black;
+    outline: 0;
+    margin: 15px;
+    border-radius: 5px;
 }
-.type-fish-content{
+.imgBox{
+    margin: 15px 15px 15px 25%;
+}
+.btn{
+    margin: 15px 15px 15px 24px;
+    width: 80%;
+    height: 30px;
+    background-color: orangered;
+    color: black;
     cursor: pointer;
-}
-#Project-head{
-    margin-top: 50px;
-}
-.button-show{
-    background-color: black;
-    color: white;
-    border-style: solid;
-    border-color: black;
-    cursor: pointer;
-    border-width: 2px;
-    padding: 10px  20px;
-}
-.button-show:hover{
-  color: red;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
 }

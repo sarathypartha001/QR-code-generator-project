@@ -3,31 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Touch and change</title>
+    <title>QR Code Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="Project-head">Touch And Change</h1><br>
-    <h4>Hello I am Parthasarathy</h4><br>
-    <div class="images">
-        <!-- <img class="img-img" src="images/pexels-crisdip-35358-128756.jpg" alt="fish">
-        <img class="img-img" src="images/pexels-giorgio-de-angelis-482403-1191109.jpg" alt="bike">
-        <img class="img-img" src="images/pexels-mikebirdy-170811.jpg" alt="car">
-        <img class="img-img" src="images/pexels-pixabay-45201.jpg" alt="cat">
-        <img class="img-img" src="images/pexels-valeriya-1805164.jpg" alt="dog"> --> 
+    <div class="container">
+        <p class="Head">Enter Your Text And URL</p>
+        <input class="input-tag" type="text" placeholder="text Your URL">    
+        <div class="imgBox">
+            <img src="" id="QRimg">
+        </div>
+        <button class="btn">Generate QR Code</button>
     </div>
-    <br>
-    <div class="options">
-        <ul class="radio-button">
-            <li class="type-fish"><input class="type-fish-content" type="radio" name="img"> Fish</li>
-            <li class="type-fish"><input class="type-fish-content" type="radio" name="img"> Bike</li>
-            <li class="type-fish"><input class="type-fish-content" type="radio" name="img"> car</li>
-            <li class="type-fish"><input class="type-fish-content" type="radio" name="img"> cat</li>
-            <li class="type-fish"><input class="type-fish-content" type="radio" name="img"> dog</li>
-        </ul>
-    </div>
-    <br>
-    <button class="button-show">Show it</button>
     <script src="script.js"></script>
 </body>
 </html>
